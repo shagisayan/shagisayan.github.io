@@ -65,14 +65,27 @@ html {
   transition: all 0.4s ease;
 }
 a {
-  color: rgb(218, 31, 31);
+  color: rgba(245, 227, 227, 0.979);
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.863);
   outline: none;
   text-decoration: underline;
+}
+
+.projects{
+  color:black;
+  width: 140px;
+}
+
+.projects:hover{
+  color:rgba(0, 0, 0, 0.65);
+}
+
+.shagi{
+  transition: none;
 }
 @media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
   a:active {
